@@ -47,3 +47,49 @@ body {
     border-radius: 30px;
     cursor: pointer;
 }
+
+
+/* Hero */
+
+.hero {
+    display: flex;
+    height: 500px;
+}
+
+.hero__info {
+    max-width: 450px;
+    align-self: center;
+}
+
+.hero__title {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero__content {
+    margin: 20px 0;
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5;
+}
+
+.hero__cta {
+    padding: 13px 30px;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: 0;
+    border-radius: 35px;
+}
+/* 
+.hero__illustration {
+    position: relative;
+    flex: 1;
+    background-image: url("../images/bg-intro-desktop.svg");
+    z-index: -2;
+}
+
+.hero__mockup {
+    position: absolute;
+    right: -130px;
+    top: -130px;
+    z-index: -1;
+} */
