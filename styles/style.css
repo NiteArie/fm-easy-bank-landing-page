@@ -12,13 +12,17 @@ body {
 /* Header */
 
 .header {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.header__wrapper {
     max-width: 1200px;
-    margin: 20px auto;
+    margin: auto auto;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    background-color: hsl(0, 0%, 100%);
 }
 
 .header__list {
