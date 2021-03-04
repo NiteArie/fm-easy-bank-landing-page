@@ -100,3 +100,45 @@ body {
     right: -100px;
     top: -100px;
 }
+
+
+/* Reason */
+
+.reason {
+    padding: 100px;
+    background-color: hsl(0, 0%, 98%); 
+}
+
+.reason__title {
+    font-size: 32px;
+}
+
+.reason__content {
+    margin: 20px 0 20px;
+    max-width: 650px;
+    line-height: 1.5;
+    color: hsl(233, 8%, 62%);
+}
+
+.reason__features {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.reason__picture {
+    width: 60px;
+}
+
+.reason__sub-title {
+    margin: 30px 0;
+    font-size: 24px;
+}
+
+.reason__desc {
+    max-width: 262px;
+    color: hsl(233, 8%, 62%);
+    font-size: 16px;
+    line-height: 1.5;
+}
