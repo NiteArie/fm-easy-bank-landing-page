@@ -15,10 +15,8 @@ body {
     background-color: hsl(0, 0%, 100%);
 }
 
-.header__wrapper {
-    max-width: 1200px;
-    margin: auto auto;
-    padding: 20px 0;
+.header__wrapper {  
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,8 +61,8 @@ body {
 }
 
 .hero__info {
-    margin-left: calc(10vw);
-    max-width: 450px;
+    padding-left: 100px;
+    max-width: 550px;
     align-self: center;
 }
 
@@ -94,7 +92,6 @@ body {
     background-position: bottom -100px right -140px;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -2;
 }
 
 .hero__mockup {
@@ -102,5 +99,4 @@ body {
     width: 650px;
     right: -100px;
     top: -100px;
-    z-index: -1;
 }
