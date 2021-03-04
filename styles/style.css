@@ -7,6 +7,7 @@
 body {
     font-family: "Public Sans", sans-serif;
     font-size: 18px;
+    color: hsl(233, 26%, 24%);
 }
 
 /* Header */
@@ -50,6 +51,7 @@ body {
 
 .main {
     overflow: hidden;
+    background-color:  hsl(0, 0%, 98%);
 }
 
 
@@ -106,11 +108,11 @@ body {
 
 .reason {
     padding: 100px;
-    background-color: hsl(0, 0%, 98%); 
+    background-color: hsl(220, 16%, 96%);
 }
 
 .reason__title {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .reason__content {
