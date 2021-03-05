@@ -329,3 +329,25 @@ body {
         column-gap: 30px;
     }
 }
+
+@media only screen and (max-width: 1120px) {
+    /* Hero */
+
+    .hero {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .hero__mockup {
+        position: relative;
+        right: 0;
+        left: 0;
+        top: -250px;
+    }
+
+    .hero__illustration {
+        text-align: center;
+        background-position: top -200px left 0px;
+    }
+}
