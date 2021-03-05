@@ -323,4 +323,9 @@ body {
     .article__picture {
         height: 300px;
     }
+
+    /* Footer */
+    .footer__left {
+        column-gap: 30px;
+    }
 }
