@@ -302,3 +302,25 @@ body {
     color: hsl(233, 8%, 62%);
     font-size: 16px;
 }
+
+@media only screen and (max-width: 1200px) {
+    /* Reason */
+
+    .reason__features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reason__desc {
+        max-width: none;
+    }
+
+    /* Article */
+    .article__articles {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .article__picture {
+        height: 300px;
+    }
+}
