@@ -350,4 +350,10 @@ body {
         text-align: center;
         background-position: top -200px left 0px;
     }
+
+    /* Article */
+
+    .article__picture {
+        height: 240px;
+    }
 }
