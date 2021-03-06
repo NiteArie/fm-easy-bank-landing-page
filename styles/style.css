@@ -366,5 +366,42 @@ body {
 }
 
 @media only screen and (max-width: 1060px) {
-    
+    /* Footer */
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__left {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__socials {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer__social {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer__options {
+        margin-top: 20px;
+    }
+
+    .footer__right {
+        margin-top: 30px;
+    }
+
+    .footer__cta {
+        margin-bottom: 20px;
+    }
+
+    .footer__right {
+        align-items: center;
+    }
 }
