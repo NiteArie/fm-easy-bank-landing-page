@@ -68,6 +68,10 @@ body {
     opacity: 0.5;
 }
 
+.header__menu {
+    display: none;
+}
+
 /* Main */
 
 .main {
@@ -407,6 +411,21 @@ body {
 }
 
 @media only screen and (max-width: 950px) {
+
+    /* Header */
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__request {
+        display: none;
+    }
+
+    .header__menu {
+        display: block;
+    }
+    
     /* Article */
 
     .article__articles {
