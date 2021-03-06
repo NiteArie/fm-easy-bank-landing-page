@@ -337,6 +337,13 @@ body {
         flex-direction: column;
         align-items: stretch;
         justify-content: center;
+        height: auto;
+    }
+
+    .hero__info {
+        padding-left: 0;
+        margin-bottom: 100px;
+        order: 1;
     }
 
     .hero__mockup {
@@ -356,4 +363,8 @@ body {
     .article__picture {
         height: 240px;
     }
+}
+
+@media only screen and (max-width: 1060px) {
+    
 }
