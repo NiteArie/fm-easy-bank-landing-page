@@ -405,3 +405,15 @@ body {
         align-items: center;
     }
 }
+
+@media only screen and (max-width: 950px) {
+    /* Article */
+
+    .article__articles {
+        grid-template-columns: 1fr;
+    }
+
+    .article__picture {
+        height: 350px;
+    }
+}
