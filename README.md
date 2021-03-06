@@ -1,5 +1,9 @@
 # fm-easy-bank-landing-page (Easy Bank Landing Page)
 
+## Live Preview
+
+Live Preview: [https://nitearie.github.io/fm-easy-bank-landing-page/](https://nitearie.github.io/fm-easy-bank-landing-page/)
+
 ## Design
 
 > Desktop
