@@ -416,4 +416,10 @@ body {
     .article__picture {
         height: 350px;
     }
+
+    /* Reason */
+
+    .reason__features {
+        grid-template-columns: 1fr;
+    }
 }
