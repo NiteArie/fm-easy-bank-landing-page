@@ -414,8 +414,54 @@ body {
 
     /* Header */
 
+    .header {
+        position: relative;
+    }
+
     .header__nav {
-        display: none;
+        /* display: none; */
+        margin: 20px auto;
+        position: absolute;
+        bottom: -240px;
+        left: 0;
+        right: 0;
+        width: 95%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .header__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__item {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .header__item:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .header__link {
+        color: hsl(233, 26%, 24%);
+    }
+
+    .header__link::after {
+        position: absolute;
+        content: "";
+        width: 0%;
+        height: 4px;
+        bottom: -10px;
+        background-color: hsl(136, 65%, 51%);
+        transition: width 200ms ease-out;
+    }
+    
+    .header__item:hover .header__link::after {
+        width: 100%;
     }
 
     .header__request {
