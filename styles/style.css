@@ -540,4 +540,17 @@ body {
     .reason__title {
         font-size: 28px;
     }
+
+    /* Article */
+
+    .article__title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .article__picture {
+        height: 270px;
+    }
+
+
 }
