@@ -418,6 +418,11 @@ body {
         position: relative;
     }
 
+    .header__wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .header__nav {
         display: none;
         margin: 20px auto;
@@ -478,6 +483,11 @@ body {
     
     /* Article */
 
+    .article {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .article__articles {
         grid-template-columns: 1fr;
     }
@@ -487,6 +497,11 @@ body {
     }
 
     /* Reason */
+
+    .reason {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .reason__features {
         grid-template-columns: 1fr;
