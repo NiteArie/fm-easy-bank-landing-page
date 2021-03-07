@@ -530,4 +530,14 @@ body {
         top: -20px;
         width: 330px;
     }
+
+    /* Reason */
+
+    .reason {
+        text-align: center;
+    }
+
+    .reason__title {
+        font-size: 28px;
+    }
 }
